@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel = "AbdulUsman45/Portfolio/res/gsap.min.js" href = "gsap.min.js"/>
-        <link rel="AbdulUsman45/Portfolio/main.css" herf="main.css"/>
-        <link rel="AbdulUsman45/Portfolio/main.js" herf="main.js"/>
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <div id="main">
-            <h1>Sorry, Site is under construction.</h1>
-            <div class="content">
-                <p>You can press <kbd>▲</kbd> <kbd>▼</kbd> on your keyboard or swipe up/down to navigate. Mouse wheel works too.</p>
-                <p><a href="https://codepen.io/theseventh" target="_blank">codepen</a> // <a href="https://twitter.com/the_seventh_kek" target="_blank">twitter</a>
-            </div>
-            <div class="buttons">
-                <button class="next" onclick="go(-1)"></button>
-                <button class="prev" onclick="go(1)"></button>
-            </div>
-        </div>
-    </body>
-    <script type="text/javascript">
-        // sorry for the spaghetti code and redundant variables, i wasn't exactly a good coder back then
+// sorry for the spaghetti code and redundant variables, i wasn't exactly a good coder back then
 
 const cols = 3;
 const main = document.getElementById('main');
@@ -200,5 +178,3 @@ function wheel(e) {
 }
 window.addEventListener('mousewheel', wheel, false);
 window.addEventListener('wheel', wheel, false);
-    </script>
-</html>
