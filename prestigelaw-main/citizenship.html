@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Law - Canada’s leading firm</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("./tempates/header.html");
+            $("#footer").load("footer.html");
+            $("#bookconsult").load("book-consultation.html");
+            $("#moreconsultations").load("moreconsultations.html");
+            $("#package1").load("./tempates/packages.html");
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLK4QTZXRQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RLK4QTZXRQ');
+    </script>
+</head>
+
+<body>
+    <div class="mainmargin">
+        <!-- Nav Starts here -->
+        <div id="header" onload="document.getElementById('header').innerHTML = loadPage('./tempates/header.html')">
+        </div>
+        <!-- Nav Ended here -->
+    </div>
+    <div class="title-first-page">
+        <h1 class="main-text mb-4 color-brown copyright-text">
+
+            Canadian Citizen Application
+        </h1>
+    </div>
+    <div class="content-of-blogs mainmargin">
+        Canadian Citizenship is not a right, it’s a privilege. Canada is a very generous country, a country that
+        actively encourages immigrants to take citizenship and universally grants it after three years residency.
+        Becoming a Canadian Citizen brings with it some rights and responsibilities that every citizen must comply and
+        abide by. These come to us from our history, are secured by Canadian law, and reflect our shared traditions,
+        identity, and values. This as a whole is defined under Canadian Constitution as known as “Canadian Charter of
+        Rights and Freedoms”.
+
+        The Canadian Charter of Rights and Freedoms sets out those rights and freedoms that Canadians believe are
+        necessary in a free and democratic society. The Charter is one part of the Canadian Constitution. The
+        Constitution is a set of laws containing the basic rules about how our country operates. Some of the fundamental
+        rights and responsibilities a Canadian citizen must comply, which are defined in the charter includes
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center mb-5 flex-md-column flex-wrap">
+        <button class="pay-online-buton color-black buton-border" id="textButton" onclick="toggleText()">
+            Book Consultation
+        </button>
+        <div class="w-100">
+            <div id="moreText" style="display: none;">
+                <div id="package1"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+
+</html>

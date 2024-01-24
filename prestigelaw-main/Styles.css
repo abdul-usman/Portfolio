@@ -1,0 +1,500 @@
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 107px;
+}
+.mainmargin {
+  margin-left: 81px;
+  margin-right: 81px;
+}
+.navigationmenu {
+  background-color: white;
+  /* border: 2px solid black; */
+}
+.pay-online-buton {
+  margin: 10px;
+  height: 43px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 169px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.free-schedule {
+  padding: 12px;
+  text-decoration: none;
+}
+.buton-border {
+  border: 1px solid;
+  border-radius: 6px;
+}
+.border-none {
+  border: none;
+  background-color: white;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.color-brown {
+  background-color: #7b1a34;
+  color: white;
+}
+.color-black {
+  background-color: #000000;
+  color: white;
+}
+.color-of-content {
+  color: #666666;
+}
+.nav-cont {
+  position: absolute;
+  left: 370px;
+  right: 0px;
+}
+.mainbanner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* border: 2px solid black; */
+}
+.leftpart {
+  width: 745px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* border: 2px solid black; */
+}
+.rightpart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+.right-image {
+  height: 580px;
+  /* border: 2px solid black; */
+}
+.button-pl {
+  padding: 13px;
+  text-decoration: none;
+}
+.main-text {
+  font-size: 65px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+.main-text2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+.phone-image {
+  width: 47px;
+}
+.full-Screen-brown-strip {
+  height: 151px;
+  background-color: #7b1a34;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aboutus {
+  margin-top: 104px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+}
+
+.vector1 {
+  position: absolute;
+  left: 0px;
+  mix-blend-mode: overlay;
+  /* border: 2px solid black; */
+}
+.about-us-content {
+  /* border: 2px solid black; */
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 100px;
+  align-items: center;
+}
+.below-about-image {
+  position: absolute;
+  right: 116px;
+}
+.below-about-img {
+  width: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+  height: 400px;
+}
+.ourservices {
+  height: 720px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #7b1a34;
+  padding-left: 131px;
+  padding-top: 71px;
+}
+.text-white {
+  color: white;
+  text-decoration: none;
+}
+.features-our-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+.image-our-service {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(228, 213, 192, 0.06);
+  border-radius: 5px;
+  height: 171px;
+  width: 223px;
+}
+.image-our-service:hover {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(
+    149.06deg,
+    rgba(255, 255, 255, 0.4) -41.74%,
+    rgba(255, 255, 255, 0.04) 100.87%
+  );
+  border-radius: 5px;
+}
+.our-service-image1 {
+  position: relative;
+  right: 115px;
+  top: 84px;
+}
+.our-services-right-text {
+  position: relative;
+  top: -65px;
+}
+.left-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.meet-with-lawyer-team {
+  margin-top: 70px;
+}
+
+.text-content-our-atternoy {
+  width: 800px;
+}
+.meet-attorny-text {
+  font-size: 24px;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contact-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.left-form-section {
+  width: 512px;
+  height: 550px;
+  background-color: #eff3f6;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.right-form-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-contact-section {
+  width: 512px;
+  height: 550px;
+  background-color: #7b1a34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-input {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #eff3f6;
+  color: #000000;
+  max-width: 300px;
+}
+.contact-us-form-button1 {
+  background-color: #3c3c3c;
+  padding: 20px 100px 20px 100px;
+  margin-top: 30px;
+  border: 0.5px solid black;
+}
+.contact-us-form-button2 {
+  background-color: #7b1a34;
+  padding: 20px 20px 18px 20px;
+  margin-top: 31px;
+  margin-left: -7px;
+  border: 0.5px solid black;
+}
+.right-form-section {
+  display: flex;
+}
+.address-part {
+  display: flex;
+}
+.image-address-icon {
+  height: 20px;
+  width: 20px;
+}
+.Contact-Part {
+  margin-left: 100px;
+}
+.free-consultation {
+  background-image: url("./images/Mask\ group.png");
+  background-color: #7b1a34;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+  flex-wrap: wrap;
+}
+.footer-both {
+  background-color: #172021;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-element {
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+#footerlogo {
+  height: 85px;
+}
+.social-logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-us-form-button3 {
+  background-color: #fffcf6;
+  color: #067164;
+  padding: 11px 70px 11px 70px;
+  /* margin-top: 37px; */
+  border: 0.5px solid black;
+  text-decoration: none;
+}
+hr {
+  height: 2px;
+  border: 1;
+  background-color: white;
+  margin: 0px 20px 0px 20px;
+}
+.flex-container-services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.policy-pages {
+  display: flex;
+}
+.copyright-text {
+  color: white;
+}
+.ml10 {
+  margin-left: 12px;
+}
+.title-first-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7b1a34;
+  padding: 80px;
+}
+.content-of-blogs {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .card{
+    box-shadow: 0px 1px 6px rgb(0, 0, 0);
+} */
+select {
+  height: 31px;
+  border-radius: 15px;
+}
+.snapchat{
+  width: 10%;
+}
+@media only screen and (max-width: 992px) {
+    .mainbanner{
+        margin-top: 30px;
+    }
+  .pay-online-buton {
+    margin: 0px;
+  }
+  .button-pl {
+    padding: 10px;
+    text-decoration: none;
+  }
+  .mainmargin {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .nav-cont {
+    position: inherit;
+  }
+  .main-text {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .leftpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-image {
+    height: 345px;
+    margin-top: 20px;
+  }
+  .full-Screen-brown-strip {
+    height: 190px;
+  }
+  .about-us-content {
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 65px;
+    margin-left: 0px;
+  }
+  .flex-container-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .talented-attorneys {
+    width: 100%;
+  }
+  .meet-with-lawyer-team {
+    margin-top: 850px;
+  }
+  .about-us-image {
+    width: 100%;
+  }
+  .vector1 {
+    width: 100%;
+  }
+  .ourservices {
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .our-service-image1 {
+    position: relative;
+    width: 100%;
+    right: 0px;
+    top: 84px;
+  }
+  .our-services-right-text {
+    position: relative;
+    top: -20px;
+    width: 60%;
+    left: 60px;
+  }
+  .free-consultation-right {
+    margin-top: 35px;
+  }
+  .below-about-image {
+    position: absolute;
+    right: 0px;
+  }
+  .our-service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #7b1a34;
+    padding-left: 30px;
+    padding-top: 30px;
+    align-items: center;
+  }
+  .contact-us-form-button3 {
+    padding: 11px 30px 11px 30px;
+    /* margin-top: 37px; */
+  }
+  .contact-us-form-button1 {
+    background-color: #3c3c3c;
+    padding: 20px 70px 20px 70px;
+    margin-top: 30px;
+    border: 0.5px solid black;
+  }
+  .contact-image {
+    width: 100%;
+  }
+  .footer-element {
+    width: 80%;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  .right-form-section{
+    margin-left: 20px;
+  }
+  .Contact-Part{
+    margin-left: 60px;
+  }
+  .right-contact-section{
+    height: 595px;
+  }
+}
+a{
+    text-decoration: none;
+}
